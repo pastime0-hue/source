@@ -1,0 +1,109 @@
+<resources>
+    <!-- Main Activity-->
+    <string name="app_name">DSIC FOTA</string>
+    <string name="fota_message_current_version">Current Version</string>
+    <string name="fota_message_update_is_exist">New version is available</string>
+    <string name="fota_message_update_is_not_exist"> Update is not available</string>
+    <string name="fota_message_update_check_failed"> Update check failed</string>
+
+    <string name="fota_message_battery_is_not_enough">Battery too low for update. Update will begin when battery reaches 20%</string>
+    <string name="fota_message_update_network_none">Update Network setting is None</string>
+    <string name="fota_message_wifi_network_unavailable">WIFI network is unavailable</string>
+    <string name="fota_message_mobile_network_unavailable">Mobile Network is unavailable</string>
+    <string name="fota_message_all_network_unavailable">All Network are unavailable</string>
+    <string name="fota_message_last_update_check_time">Recent check for Update</string>
+    <string name="fota_message_file_count_is_zero">File count is zero</string>
+    <string name="fota_message_file_size_is_zero">File size is zero</string>
+
+    <string name="fota_message_update_button">Update</string>
+    <!-- menu -->
+    <string name="fota_menu_update_setting">Setting</string>
+    <string name="fota_menu_manual_update">Manual Update</string>
+
+    <string name="fota_menu_update_check_period">Update check Period</string>
+    <string-array name="fota_menu_update_check_period_array">
+        <item name="six_hour">6 hour</item>
+        <item name="twelve_hour">12 hour</item>
+        <item name="one_day">1 day</item>
+    </string-array>
+
+    <string name="fota_menu_update_type">Update type</string>
+    <string-array name="fota_menu_update_array">
+        <item name="release_update">Release Update</item>
+        <item name="beta_update">Beta Update</item>
+    </string-array>
+
+    <!-- update setting activity-->
+    <string name="fota_title_update_network">Update Network</string>
+    <string name="fota_sub_update_network">Update over a mobile network may incur additional charge</string>
+    <string-array name="fota_update_network_array">
+        <item name="none">None</item>
+        <item name="wifi_only">Wifi Only</item>
+        <item name="wifi_and_cell">Wifi And Mobile Network</item>
+        <item name="cell_only">Mobile Network Only</item>
+    </string-array>
+
+    <!-- update notification message -->
+    <string name="fota_update_notification_message"> New version is available</string>
+    <string name="fota_move_to_update_screen">Do you want to go to FOTA update screen?</string>
+
+    <!-- network check message -->
+    <string name="fota_network_inavailable"> Network is unavailable</string>
+    <string name="fota_network_request_start_update"> Do you want to start OS Update?</string>
+    <string name="fota_network_request_use_cell_network"> Do you want to update over a mobile network? data file size:</string>
+    <string name="fota_message_mobile_network_update_disabled">Mobile network update is disabled</string>
+    <string name="fota_message_wifi_network_update_disabled">Wifi network update is disabled</string>
+
+    <!-- file update message -->
+    <string name="fota_download_fail">OS Update data download failed</string>
+
+    <string name="fota_downloading_data">OS Update data download</string>
+    <string name="fota_downloading_finished">Complete downloading. The device will update</string>
+
+    <string name="fota_check_md5">Checking file\'s checksum..</string>
+    <string name="fota_check_md5_correct">file\'s checksum is correct</string>
+    <string name="fota_check_md5_incorrect">file\'s checksum is incorrect</string>
+
+    <string name="fota_copy_file">Copying file to OS Folder</string>
+    <string name="fota_copy_file_success">Copy file success</string>
+    <string name="fota_copy_file_fail">Copy file failed</string>
+
+    <string name="fota_check_file_exited">Checking OS File existence</string>
+    <string name="fota_check_file_exited_success">OS File exist</string>
+    <string name="fota_check_file_exited_fail">OS File does not exist</string>
+
+    <string name="title_activity_initial_setting">Initial Setting</string>
+    <string name="message_invalid_update_barcode">Invalid barcode for Update:</string>
+
+    <string name="fota_message_update_stop">Update is stopped</string>
+    <!-- Refresh update status -->
+    <string name="fota_on_update_checking">Checking Update</string>
+
+    <string name="fota_copy_file_to_update_folder">Copy OS File to update folder</string>
+    <string name="fota_copy_file_to_update_folder_success">Copy  OS File Success</string>
+    <string name="fota_copy_file_to_update_folder_fail">Copy  OS File Fail</string>
+
+    <string name="fota_not_enough_free_space">Need more free space to update OS.</string>
+    <string name="fota_required_space">Required Space :</string>
+
+    <string name="fota_os_update_progress">OS Update Progress</string>
+
+    <string name="device_type" product="default">phone</string>
+    <string name="device_type" product="tablet">tablet</string>
+
+    <string name="fota_message_dir_create_failed">Folder create failed.</string>
+    <string name="fota_message_not_found_file">There are no files in the \"INTERNAL/otaupdate\" folder.</string>
+    <string name="fota_message_more_than_one_file">There is more than one zip file in the \"INTERNAL/otaupdate\" folder.</string>
+    <string name="fota_message_manual_update_storage_title_internal">[Internal Storage]</string>
+    <string name="fota_message_manual_update_storage_title_sdcard">[SD Card]</string>
+    <string name="fota_message_manual_update_storage_title_otg">[USB Device]</string>
+    <string name="fota_message_os_update_confirm_message">Do you want to update with the selected file?</string>
+    <string name="not_found_file">Not found file in "otaupdate" folder.</string>
+    <string name="copy_failed">Copy failed.</string>
+    <string name="dir_create_failed">Folder create failed.</string>
+    <string name="file_delete_failed">File delete failed.</string>
+    <string name="copy_success">Copy successded.</string>
+    <string name="copying_data">Copying\u2026</string>
+
+    <string name="fota_message_manual_update_remote_ota_file">A file already exists in the OTA folder. Do you want to delete it and proceed with the update?</string>
+</resources>

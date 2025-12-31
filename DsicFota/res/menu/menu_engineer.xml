@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dsic.toolbartest.MainActivity">
+    <item
+        android:id="@+id/action_update_type"
+        android:orderInCategory="102"
+        android:title="@string/fota_menu_update_type" />
+</menu>
